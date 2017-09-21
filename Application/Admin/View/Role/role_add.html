@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>后台管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/bootstrap-responsive.min.css">
+</head>
+<body>
+<!-- 上 -->
+<include file = "Common/header" />
+<!-- 右 -->
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">添加分组</h1>
+    </div>
+
+    <div class="well">
+    正在添加分组权限
+    <form action="__SELF__" method="post">
+
+        <!-- table -->
+            权限名称:<input type="text" name="role_name" value="" required placeholder="请输入分组名"  >
+            </tr>
+        </table>
+        <table class="table table-bordered table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th>权限分类</th>
+                    <th>权限</th>
+                </tr>
+
+            </thead>
+            <tbody>
+
+            <volist name="auth.allFrist" id="a_f" k="k_f" >
+
+                <tr class="success">
+                    <td><input type="checkbox" name="id[]" value="{$a_f.id}" >{$a_f.auth_name}</td>
+                    <td>
+
+                    <volist name="auth.allsecond" id="a_c" k="k_c" >
+                        <if condition="$a_c.pid eq $a_f.id " >
+                            <input type="checkbox" name="id[]" value="{$a_c.id}"  >{$a_c.auth_name}
+                        </if>
+                    </volist>
+
+                    </td>
+                </tr>
+
+            </volist>
+
+            </tbody>
+        </table>
+        <button class="btn btn-primary" type="submit">保存</button>
+    </form>
+    </div>
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p>© 2017 <a href="javascript:void(0);" target="_blank">ADMIN</a></p>
+    </footer>
+</div>
+</body>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/Admin/js/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/Admin/js/bootstrap.min.js"></script>
+<!-- 日期控件 -->
+<script src="__PUBLIC__/Admin/js/calendar/WdatePicker.js"></script>
+</html>

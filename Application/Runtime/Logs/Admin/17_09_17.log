@@ -1,0 +1,134 @@
+[ 2017-09-17T16:16:08+08:00 ] 127.0.0.1 /index.php/admin/index/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014925s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014973s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.051344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.051381s ]
+
+[ 2017-09-17T16:16:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028901s ]
+
+[ 2017-09-17T16:16:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-09-17T16:16:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/AjaxLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tpshop_manager` [ RunTime:0.0689s ]
+SQL: SELECT * FROM `tpshop_manager` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-09-17T16:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `tpshop_auth` [ RunTime:0.1313s ]
+SQL: SELECT * FROM `tpshop_auth` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_auth` WHERE ( pid<>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-09-17T16:16:26+08:00 ] 127.0.0.1 /index.php/admin/index/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+ERR: 非法操作:goods_list
+
+[ 2017-09-17T16:16:27+08:00 ] 127.0.0.1 /index.php/admin/index/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+ERR: 非法操作:goods_list
+
+[ 2017-09-17T16:16:44+08:00 ] 127.0.0.1 /index.php/admin/index/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+ERR: 非法操作:goods_list
+
+[ 2017-09-17T16:25:14+08:00 ] 127.0.0.1 /index.php/admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0710s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0238s ]
+
+[ 2017-09-17T16:26:14+08:00 ] 127.0.0.1 /index.php/admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.1272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0006s ]
+

@@ -1,0 +1,26 @@
+[16-Jun-2017 13:08:15 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:15 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:15 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:15 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:08:19 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:19 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:19 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:19 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:08:21 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:21 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:21 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:21 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:08:23 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:23 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:23 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:23 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:08:27 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:27 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:27 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:27 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:08:29 PRC] PHP Notice:  Undefined index: WIDout_trade_no in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 32
+[16-Jun-2017 13:08:29 PRC] PHP Notice:  Undefined index: WIDsubject in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 35
+[16-Jun-2017 13:08:29 PRC] PHP Notice:  Undefined index: WIDtotal_fee in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 38
+[16-Jun-2017 13:08:29 PRC] PHP Notice:  Undefined index: WIDbody in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 41
+[16-Jun-2017 13:12:40 PRC] PHP Fatal error:  Call to undefined function dump() in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 29
+[16-Jun-2017 13:12:50 PRC] PHP Fatal error:  Call to undefined function dump() in D:\aaaa\Application\Tools\alipay\alipayapi.php on line 29

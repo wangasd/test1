@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单查询</title>
+</head>
+<script src="__PUBLIC__/Admin/js/jquery-1.8.1.min.js"></script>
+<body>
+<table id="control"  border="1">
+    <tr>
+        <td>
+            <select name="" id="select">
+                <option value="0">根据用户名</option>
+                <option value="1">根据时间</option>
+            </select>
+        </td>
+        <td>
+            <input type="text" id="username" />
+        </td>
+        <td>
+            <button id="ajaxbutton">搜索</button>
+        </td>
+    </tr>
+</table>
+<table border="1" id="content">
+    <tr>
+        <td>定点ID</td><td>下单人</td><td>商品名称</td><td>数量</td><td>订购时间</td>
+    </tr>
+
+
+</table>
+
+</body>
+<script>
+    $(function(){
+        $('#select').change(function () {
+            if($('#select').val()==1){
+                console.log( $('#control tr td').eq(1).html());
+                $('#control tr td').eq(1).html("<input type='text' name='endTime' /> <input type='text' name='beginTime' />")
+
+            } else if($('#select').val()==0){
+                console.log( $('#control tr').eq(1).html());
+                $('#control tr td').eq(1).html("<input type='text' name='username' />")
+            }
+        })
+
+        $('#ajaxbutton').click(function () {
+
+            if($('#control tr td input').eq(0).attr('name')=='endTime'){
+
+//                获取时间差
+                var time= new Array()
+                time[0]= $('#control tr td input').eq(0).val()
+                time[1]= $('#control tr td input').eq(1).val()
+                data={'time':time}
+            }else{
+//                获取用户名
+                name=$('#control tr td input').eq(0).val()
+                data={'name':name}
+            }
+
+
+
+            //发送ajax请求
+            $.ajax({
+                'url':'__CONTROLLER__/ajaxname',
+                'type':'post',
+                'data': data,
+                'dataType':'json',
+                'success':function(response){
+                    console.log(response);
+                    if(response.code == 10000){
+                        var str=''
+                        $.each(response.data ,function (k,v) {
+                            console.log(v)
+                            str +="<tr><td>"+v.id +"</td><td>"+v.username+"</td><td>"+v.goods_attr_ids+"</td><td>"+v.address_id+"</td><td>"+v.create_time+"</td></tr>"
+                        })
+                        console.log(str)
+                        $('#content ').append(str)
+                    }
+                }
+            });
+
+        })
+
+
+    })
+</script>
+</html>

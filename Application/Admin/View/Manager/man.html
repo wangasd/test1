@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/bootstrap-responsive.min.css">
+</head>
+<body>
+<include file="Common/header" />
+<!-- 右 -->
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">管理员列表</h1>
+    </div>
+
+    <div class="well">
+        <!-- search button -->
+        <form class="form-search">
+            <div class="row-fluid" style="text-align: left;">
+                <div class="pull-left span4 unstyled">
+                    <p> 用户名：<input class="input-medium" type="text"></p>
+                </div>
+                <div class="pull-left span4 unstyled">
+                    <p> 等级：
+                        <select class="span2">
+                            <option value="1">超级管理员</option>
+                            <option value="2">普通管理员</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="pull-left span4 unstyled">
+                    <p> 开始时间：<input class="input-medium" type="text" onclick="WdatePicker()"></p>
+                </div>
+            </div>
+            <button type="submit" class="btn">查找</button>
+            <a class="btn btn-primary" onclick="location.href='__CONTROLLER__/manager_add'">新增</a>
+        </form>
+    </div>
+    <div class="well">
+        <!-- table -->
+        <table class="table table-bordered table-hover table-condensed">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>用户名</th>
+                <th>昵称</th>
+                <th>等级</th>
+                <th>邮箱</th>
+                <th>是否可用</th>
+                <th>上次登录时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="data" key="key" id="val">
+                <tr class="success">
+                    <td>{$val.id}</td>
+                    <td>{$val.username}</td>
+                    <th>{$val.nickname}</th>
+                    <td>{$val.status}</td>
+                    <td>{$val.email}</td>
+                    <td>可用</td>
+                    <td>{$val.last_login_time}</td>
+                    <td>
+                        <a href="edit.html"><i class="icon-pencil"></i></a>
+                        <a href="#myModal{$val.id}" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+                    </td>
+                </tr>
+                <!-- delete showmodaldialog -->
+                <div class="modal small hide fade" id="myModal{$val.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">删除</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>确定删除该数据吗？</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+                        <button class="btn btn-danger" data-dismiss="modal" onclick="location.href='__CONTROLLER__/manager_delete/id/{$val.id}'">删除</button>
+                    </div>
+                </div>
+            </volist>
+            </tbody>
+        </table>
+        <!-- pagination -->
+        <div class="pagination">
+            <ul>
+                <li><a href="#">Prev</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p>? 2017 <a href="javascript:void(0);" target="_blank">ADMIN</a></p>
+    </footer>
+</div>
+</body>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/Admin/js/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/Admin/js/bootstrap.min.js"></script>
+<!-- 日期控件 -->
+<script src="__PUBLIC__/Admin/js/calendar/WdatePicker.js"></script>
+</html>
+王昊 11:08:01
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 温柔迷人你昊哥
+ * Date: 2017/5/31
+ * Time: 23:50
+ */
+namespace Admin\Controller;
+
+use Think\Controller;
+
+class ManagerController extends CommonController
+{
+
+
+    public function manager_add()
+    {
+        if (IS_POST) {
+            $data = I('post.');
+            $model = D('Manager');
+            if(!$model->create($data)){
+$error = $model->getError();
+$this->error($error);
+}
+$res = $model->add();
+if ($res) {
+$this->success('添加成功！',U('Admin/Manager/manager_list'));
+}else{
+$this->error('添加失败！');
+}
+} else {
+$this->display();
+}
+}
+
+public function manager_edit()
+{
+
+$this->display();
+}
+
+public function manager_list()
+{
+$model = M('Manager');
+$data = $model->select();
+$this->assign('data', $data);
+$this->display();
+}
+
+public function manager_delete(){
+$model = M('Manager');
+$id = I('get.id');
+$res = $model->delete($id);
+
+if ($res) {
+$this->success('删除成功！',U('Admin/Manager/manager_list'));
+}else{
+$this->error('删除失败！');
+}
+}
+
+
+}

@@ -1,0 +1,123 @@
+[ 2017-06-29T15:50:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014186s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.2714s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 23 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 28 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 37 ) LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006107s ]
+NOTIC: [8] Undefined index: user_info D:\aaaa\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033111s ]
+
+[ 2017-06-29T15:50:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxgetnum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `tpshop_cart` [ RunTime:0.0212s ]
+NOTIC: [8] Undefined variable: return D:\aaaa\Application\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\aaaa\Application\Home\Model\CartModel.class.php 第 99 行.
+
+[ 2017-06-29T18:41:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 23 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 28 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 37 ) LIMIT 5   [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: user_info D:\aaaa\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-06-29T18:41:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxgetnum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007544s ]
+SQL: SHOW COLUMNS FROM `tpshop_cart` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined variable: return D:\aaaa\Application\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\aaaa\Application\Home\Model\CartModel.class.php 第 99 行.
+
+[ 2017-06-29T22:27:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.126571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.042503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042571s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.1391s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 23 ) LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 28 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( cate_id = 37 ) LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004656s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004713s ]
+NOTIC: [8] Undefined index: user_info D:\aaaa\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.795935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.796015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.050210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.061491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.061600s ]
+
+[ 2017-06-29T22:27:20+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxgetnum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `tpshop_cart` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: return D:\aaaa\Application\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\aaaa\Application\Home\Model\CartModel.class.php 第 99 行.
+

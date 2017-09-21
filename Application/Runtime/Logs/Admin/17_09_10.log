@@ -1,0 +1,1621 @@
+[ 2017-09-10T00:30:43+08:00 ] 127.0.0.1 /index.php/Admin/admin/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-10T00:31:06+08:00 ] 127.0.0.1 /index.php/Admin/Auth/auth_edit/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tpshop_auth` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `tpshop_auth` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_auth`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-09-10T00:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-09-10T00:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-09-10T00:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-09-10T00:31:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/AjaxLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `tpshop_manager` [ RunTime:0.0721s ]
+SQL: SELECT * FROM `tpshop_manager` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-10T00:31:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-09-10T00:32:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tpshop_auth` [ RunTime:0.0842s ]
+SQL: SELECT * FROM `tpshop_auth` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_auth` WHERE ( pid<>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-09-10T00:32:18+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-09-10T00:32:47+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-09-10T00:35:04+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-09-10T01:06:46+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-09-10T01:06:47+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-09-10T01:06:49+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-09-10T01:06:51+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-09-10T01:06:52+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-09-10T01:06:54+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 87 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 90 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 107 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 115 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 119 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 178 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 180 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 192 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 395 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 405 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-09-10T01:07:41+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-09-10T01:07:43+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-09-10T01:07:57+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-09-10T01:08:09+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-09-10T01:21:48+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 86 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 86 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 86 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 89 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 106 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 114 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 177 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 179 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 394 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 404 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-09-10T01:22:30+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-09-10T01:27:17+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-09-10T01:27:36+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 406 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 416 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-09-10T01:29:31+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-09-10T01:29:59+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-09-10T12:45:47+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009536s ]
+
+[ 2017-09-10T12:46:53+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-09-10T12:47:07+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-09-10T12:47:21+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+NOTIC: [8] Undefined variable: attr_only D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 411 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-09-10T12:59:46+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 98 行.
+NOTIC: [8] Undefined variable: goods_pics D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 101 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 118 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 126 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 130 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 189 行.
+NOTIC: [8] Undefined variable: new_attr_radio D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 191 行.
+NOTIC: [8] Undefined variable: goods D:\www\www\Application\Runtime\Cache\Admin\5d13d0bef018830de322b35ec58dbfe2.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-09-10T13:00:55+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-09-10T13:00:57+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-09-10T13:01:35+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-09-10T13:01:36+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-09-10T13:01:57+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-09-10T21:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0393s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0164s ]
+
+[ 2017-09-10T21:57:48+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-09-10T21:57:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `tpshop_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-09-10T21:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2017-09-10T21:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:undefined
+
+[ 2017-09-10T21:58:10+08:00 ] 127.0.0.1 /index.php/Admin/Order/order_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-09-10T21:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0572s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2017-09-10T21:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 非法操作:undefined
+
+[ 2017-09-10T21:58:16+08:00 ] 127.0.0.1 /index.php/Admin/Role/role_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `tpshop_role` [ RunTime:0.1714s ]
+SQL: SELECT * FROM `tpshop_role`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-09-10T21:58:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/role_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tpshop_role` [ RunTime:0.0614s ]
+SQL: SELECT * FROM `tpshop_role`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-09-10T21:59:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/manager_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `tpshop_manager` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tpshop_manager`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-09-10T23:13:58+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-10T23:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2017-09-10T23:16:18+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-09-10T23:21:23+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-09-10T23:22:02+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-09-10T23:22:03+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2017-09-10T23:24:52+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-09-10T23:24:53+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2017-09-10T23:26:34+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-09-10T23:26:35+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2017-09-10T23:31:37+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-09-10T23:31:38+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2017-09-10T23:36:10+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-09-10T23:36:11+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2017-09-10T23:36:42+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-09-10T23:36:43+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2017-09-10T23:38:30+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-09-10T23:38:31+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2017-09-10T23:40:01+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-09-10T23:40:02+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2017-09-10T23:40:57+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-09-10T23:40:58+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2017-09-10T23:41:32+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2017-09-10T23:41:33+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2017-09-10T23:46:09+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-09-10T23:46:11+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2017-09-10T23:46:46+08:00 ] 127.0.0.1 /index.php/Admin/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-09-10T23:46:48+08:00 ] 127.0.0.1 /index.php/Admin/goods/get_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ma0 D:\www\www\Application\Admin\Controller\GoodsController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `goods_name` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+
